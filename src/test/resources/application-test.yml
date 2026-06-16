@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:votacao;DB_CLOSE_DELAY=-1
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+votacao:
+  sessao:
+    duracao-padrao-minutos: 1
